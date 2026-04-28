@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HackerWire — A better way to read Hacker News</title>
+<meta name="description" content="HackerWire is a native iOS client for Hacker News, built for people who read. Threaded comments, 17 themes, AI summaries, offline reading.">
+<meta name="theme-color" content="#fafaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0e0e" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="container">
+    <a class="wordmark" href="./">HackerWire<span class="dot" aria-hidden="true"></span></a>
+    <nav class="mast-nav" aria-label="Primary">
+      <a href="#features" class="hide-sm">Features</a>
+      <a href="#pro">Pro</a>
+      <a href="privacy/">Privacy</a>
+      <a href="terms/" class="hide-sm">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="issue-line">
+            <span class="num">No. 01</span>
+            <span class="sep" aria-hidden="true"></span>
+            <span>A reader for Hacker News</span>
+            <span class="sep" aria-hidden="true"></span>
+            <span>iPhone &amp; iPad</span>
+          </div>
+          <h1 class="headline">A better way <em>to read</em> Hacker News.</h1>
+          <p class="standfirst">Native, fast, and intentionally unhurried. HackerWire is the HN client built for people who actually read the thread — not just the headline.</p>
+          <div class="cta-row">
+            <a class="btn-app" href="#" aria-label="Download on the App Store">
+              <span class="glyph" aria-hidden="true">&#xf8ff;</span>
+              <span>
+                <small>Download on the</small>
+                App Store
+              </span>
+            </a>
+          </div>
+        </div>
+        <div aria-hidden="true">
+          <div class="device">
+            <div class="device-bezel">
+              <div class="device-screen">
+                <div class="device-island" aria-hidden="true"></div>
+                <img src="assets/app-screenshot.png" alt="HackerWire on iPhone" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro">
+    <div class="container">
+      <div class="intro-grid">
+        <div><p class="section-label">The premise</p></div>
+        <p>Hacker News is one of the last places online where the comments are the point. HackerWire is a reader designed around that — threaded discussions that stay readable at depth, typography that doesn't fight you, and the deliberate absence of everything a news app usually piles on. No feeds to doom-scroll. No notifications begging for attention. Just stories and comments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="features-head">
+        <h2>Six things it does, <em>and does carefully.</em></h2>
+        <span class="count">§ 01 — 06</span>
+      </div>
+
+      <article class="feature">
+        <div class="num">01</div>
+        <h3>Native iOS, <em>fast</em></h3>
+        <p class="copy">
+          <span class="kicker">Performance</span>
+          Written in Swift against UIKit. Stories open instantly, scrolling stays at 120 Hz on ProMotion, and there is no web view hiding in the basement. No splash ads, no interstitials, no "what's new" modal. The app opens to the top stories and nothing else.
+        </p>
+      </article>
+
+      <article class="feature">
+        <div class="num">02</div>
+        <h3>Threaded comments, <em>done right</em></h3>
+        <p class="copy">
+          <span class="kicker">Reading</span>
+          Depth lines you can actually follow. Collapse a branch with a single tap; long threads never trap you fifteen levels deep with no way out. Tap a reply arrow to jump straight back to the parent. The comments are the reason you are here, so they get the attention.
+        </p>
+      </article>
+
+      <article class="feature">
+        <div class="num">03</div>
+        <h3>AI summaries, <em>on demand only</em></h3>
+        <p class="copy">
+          <span class="kicker">Pro feature</span>
+          Tap once for a short summary of the article or the full discussion. Summaries are generated when you ask for them — never preemptively, never in a feed. Up to thirty per day. Cached locally so you don't pay twice to read the same thing.
+        </p>
+      </article>
+
+      <article class="feature">
+        <div class="num">04</div>
+        <h3>Seventeen themes, <em>including Pure Black for OLED</em></h3>
+        <p class="copy">
+          <span class="kicker">Appearance</span>
+          Warm paper, cool paper, solarized, sepia, newsprint, and a true-black mode that draws as little battery as the display allows. Pick a theme and the whole app respects it — chrome, comments, syntax highlighting in code blocks, every last divider.
+        </p>
+      </article>
+
+      <article class="feature">
+        <div class="num">05</div>
+        <h3>Bookmarks &amp; <em>offline reading</em></h3>
+        <p class="copy">
+          <span class="kicker">Keep</span>
+          Save a story and its discussion for the flight, the subway, or the beach. Bookmarks sync to iCloud across your devices. Offline mode keeps the last week of saved articles available without a connection, typography and all.
+        </p>
+      </article>
+
+      <article class="feature">
+        <div class="num">06</div>
+        <h3>The details, <em>where they matter</em></h3>
+        <p class="copy">
+          <span class="kicker">Craft</span>
+          Swipe left to upvote, right to save. Pull-to-refresh with a subtle haptic. Long-press any link for a preview. Dynamic Type throughout. VoiceOver labels on every control. Keyboard shortcuts on iPad. The small things, done on purpose.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRO -->
+  <section class="pro" id="pro">
+    <div class="container">
+      <div class="pro-grid">
+        <div class="pro-lede">
+          <p class="eyebrow">HackerWire Pro</p>
+          <h2>Two dollars <em>or fifteen.</em></h2>
+          <p>The free app is already complete: browse, sign in, vote, comment, submit, bookmark, seventeen themes, offline reading. Pro adds AI summaries, removes the (very small) nag, and keeps independent software independent.</p>
+          <ul class="benefits">
+            <li>AI summaries of articles and discussions, up to 30 per day</li>
+            <li>Ad-free, always</li>
+            <li>Early access to new features</li>
+            <li>Supports one-person, independent development</li>
+          </ul>
+          <a class="btn-app" href="#">
+            <span class="glyph" aria-hidden="true">&#xf8ff;</span>
+            <span><small>Get on the</small>App Store</span>
+          </a>
+        </div>
+
+        <div>
+          <div class="price-card">
+            <div class="plan-row">
+              <span class="plan-label">Monthly</span>
+            </div>
+            <div class="plan-price">$1.99 <span class="per">/ month</span></div>
+            <p class="plan-sub">Billed monthly. Cancel any time.</p>
+          </div>
+
+          <div class="price-card featured">
+            <div class="plan-row">
+              <span class="plan-label">Yearly</span>
+              <span class="plan-save">Save 37%</span>
+            </div>
+            <div class="plan-price">$14.99 <span class="per">/ year</span></div>
+            <p class="plan-sub">About $1.25 a month. Best value.</p>
+          </div>
+
+          <p class="renewal-note">Subscription auto-renews at the price above, charged to your Apple ID within 24 hours before each period ends, unless cancelled at least 24 hours in advance. Manage or cancel in Apple Account Settings. No free trial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="colophon-foot">
+  <div class="container">
+    <a class="foot-mark wordmark" href="./">HackerWire<span class="dot" aria-hidden="true"></span></a>
+    <nav class="foot-nav" aria-label="Footer">
+      <a href="privacy/">Privacy</a>
+      <a href="terms/">Terms</a>
+      <a href="support/">Support</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
