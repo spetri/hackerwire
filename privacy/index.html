@@ -20,7 +20,7 @@
     <a class="wordmark" href="../">HackerWire<span class="dot" aria-hidden="true"></span></a>
     <nav class="mast-nav" aria-label="Primary">
       <a href="../#features" class="hide-sm">Features</a>
-      <a href="../#pro">Pro</a>
+      <a href="../#pro">Pricing</a>
       <a href="../privacy/" aria-current="page">Privacy</a>
       <a href="../terms/" class="hide-sm">Terms</a>
     </nav>
@@ -61,7 +61,7 @@
         <section id="summary">
           <h2><span class="n">02</span>In plain English</h2>
           <p>We collect almost nothing on our servers. There is no account to create with us, no analytics SDK, no advertising network, no tracker. The things you'd expect an HN client to store — your session, your bookmarks, your preferences — live on your iPhone or iPad and nowhere else.</p>
-          <p>The one exception is AI summaries for Pro subscribers, and even there we go out of our way not to attach your identity to the request. Details below.</p>
+          <p>AI summaries are generated entirely on your device using Apple Intelligence — the article and comment text never leaves your iPhone, and nothing is sent to us, to Apple's servers, or to any third party. Details below.</p>
         </section>
 
         <section id="local">
@@ -89,12 +89,12 @@
               <dd>When you search, your query is sent to Algolia's public HN Search API. No user identifier is attached. We do not know what you searched.</dd>
             </div>
             <div class="row">
-              <dt>OpenAI <span style="color:var(--ink-mute);font-weight:400;">— api.openai.com, via a HackerWire-operated proxy</span></dt>
-              <dd>Only when a Pro subscriber explicitly taps to generate a summary. The HackerWire proxy forwards the relevant article text or comment text to OpenAI and returns the summary. <strong>No user identifier is attached to the request.</strong> Our proxy retains anonymized request logs for fewer than 30 days strictly for abuse prevention and rate-limiting, and the logs are used for nothing else.</dd>
+              <dt>Apple Intelligence <span style="color:var(--ink-mute);font-weight:400;">— on your device</span></dt>
+              <dd>When you tap to generate a summary, it is produced entirely on your device by Apple's on-device model. The article or comment text is <strong>not sent to us, to Apple's servers, or to any third party</strong> — no network request is made to generate the summary.</dd>
             </div>
             <div class="row">
-              <dt>Apple StoreKit</dt>
-              <dd>If you purchase a HackerWire Pro subscription, Apple handles the purchase and all payment data under Apple's privacy policy. We receive a subscription receipt from Apple to verify your Pro status. We never see your card, Apple ID email, or billing address.</dd>
+              <dt>Apple App Store</dt>
+              <dd>HackerWire is a one-time paid app. Apple handles the purchase and all payment data under Apple's own privacy policy. We never see your card, Apple ID email, or billing address, and there is no subscription or in-app purchase.</dd>
             </div>
           </dl>
         </section>
@@ -113,7 +113,7 @@
         <section id="rights">
           <h2><span class="n">06</span>Your rights</h2>
           <p>Because the app stores your data on your device rather than on our servers, the most effective way to delete everything is to <strong>uninstall the app</strong>. That removes your session cookie, bookmarks, vote history, theme preferences, and cached summaries.</p>
-          <p>For any other request — access, correction, deletion of anonymized proxy logs, or a general question about your data — email <a href="mailto:support@hackerwire.app">support@hackerwire.app</a> and we will respond.</p>
+          <p>For any other request — access, correction, or a general question about your data — email <a href="mailto:support@hackerwire.app">support@hackerwire.app</a> and we will respond.</p>
         </section>
 
         <section id="coppa">
